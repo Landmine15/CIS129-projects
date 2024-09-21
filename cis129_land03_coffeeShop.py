@@ -1,5 +1,11 @@
 #This program is a an interactive text based Coffee Shop simulator that calculates a reciept based on how many items the user wants to order
-
+print('Welcome to Matthew's Coffee Shop!')
+print('Here is our menu with prices:')
+print('Coffee-------- $5')
+print('Muffin-------- $4')
+print('Scone-------- $3')
+print('Brownie-------- $2')
+print('A standard 6% sales tax rate will be added to your subtotal')
 #menu prices below
 coffeePrice = 5
 muffinPrice = 4
@@ -33,8 +39,8 @@ print('***************************************')
 print('My Coffee and Muffin Shop Receipt')
 print(f'{numCoffees} Coffee at $5 each: $ {coffeeTotal:5.2f}')
 print(f'{numMuffins} Muffins at $4 each: $ {muffinTotal:5.2f}')
-print(f'{numScones} Scones at $3 each: $ {SconeTotal:5.2f}')
-print(f'{numBrownies} Brownies at $2 each: $ {BrownieTotal:5.2f}')
+print(f'{numScones} Scones at $3 each: $ {sconeTotal:5.2f}')
+print(f'{numBrownies} Brownies at $2 each: $ {brownieTotal:5.2f}')
 print(f'6% tax:              $ {tax:5.2f}')
 print('---------')
 print(f'Total:               $ {total:5.2f}')
