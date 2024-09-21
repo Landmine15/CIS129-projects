@@ -1,5 +1,5 @@
 #This program is a an interactive text based Coffee Shop simulator that calculates a reciept based on how many items the user wants to order
-print('Welcome to Matthew's Coffee Shop! ')
+print("Welcome to Matthew's Coffee Shop! ")
 print('Here is our menu with prices: ')
 print('Coffee-------- $5 ')
 print('Muffin-------- $4 ')
@@ -45,4 +45,4 @@ print(f'6% tax:              $ {tax:5.2f}')
 print('---------')
 print(f'Total:               $ {total:5.2f}')
 print('***************************************')
-print('Thank you for coming to My Coffee and Muffin Shop!')
+print("Thank you for coming to Matthew's Coffee Shop!")
