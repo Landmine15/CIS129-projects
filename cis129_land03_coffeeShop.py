@@ -31,8 +31,8 @@ total = subtotal + tax
 # Output reciept below
 print('***************************************')
 print('My Coffee and Muffin Shop Receipt')
-print(f'{numCoffees} Coffee at $5 each: $ {coffee_total:5.2f}')
-print(f'{num_muffins} Muffins at $4 each: $ {muffin_total:5.2f}')
+print(f'{numCoffees} Coffee at $5 each: $ {coffeeTotal:5.2f}')
+print(f'{numMuffins} Muffins at $4 each: $ {muffinTotal:5.2f}')
 print(f'6% tax:              $ {tax:5.2f}')
 print('---------')
 print(f'Total:               $ {total:5.2f}')
