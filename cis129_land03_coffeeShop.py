@@ -1,11 +1,11 @@
 #This program is a an interactive text based Coffee Shop simulator that calculates a reciept based on how many items the user wants to order
-print('Welcome to Matthew's Coffee Shop!')
-print('Here is our menu with prices:')
-print('Coffee-------- $5')
-print('Muffin-------- $4')
-print('Scone-------- $3')
-print('Brownie-------- $2')
-print('A standard 6% sales tax rate will be added to your subtotal')
+print('Welcome to Matthew's Coffee Shop! ')
+print('Here is our menu with prices: ')
+print('Coffee-------- $5 ')
+print('Muffin-------- $4 ')
+print('Scone-------- $3 ')
+print('Brownie-------- $2 ')
+print('A standard 6% sales tax rate will be added to your subtotal ')
 #menu prices below
 coffeePrice = 5
 muffinPrice = 4
