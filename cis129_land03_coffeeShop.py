@@ -36,7 +36,7 @@ total = subtotal + tax
 
 # Output reciept below
 print('***************************************')
-print('My Coffee and Muffin Shop Receipt')
+print("My Matthew's Coffee Shop Receipt")
 print(f'{numCoffees} Coffee at $5 each: $ {coffeeTotal:5.2f}')
 print(f'{numMuffins} Muffins at $4 each: $ {muffinTotal:5.2f}')
 print(f'{numScones} Scones at $3 each: $ {sconeTotal:5.2f}')
